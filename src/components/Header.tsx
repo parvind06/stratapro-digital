@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="company-logo">INSANGER technology PVT.LTD</div>
+            <div className="company-logo">Insenger Technology Pvt.Ltd</div>
           </div>
 
           {/* Desktop Navigation */}
