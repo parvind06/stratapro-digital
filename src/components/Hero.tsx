@@ -3,8 +3,8 @@ import { ArrowRight, Shield, Zap, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 pb-16 bg-gradient-subtle">
-      <div className="container mx-auto px-4 lg:px-6">
+    <section id="home" className="pt-20 pb-16 bg-gradient-corporate relative overflow-hidden">
+      <div className="container mx-auto px-4 lg:px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Heading */}
           <div className="fade-in">
@@ -59,10 +59,23 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Floating Elements */}
+        {/* Tech-themed Abstract Elements */}
         <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full blur-xl animate-float"></div>
-        <div className="absolute top-40 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl animate-float" style={{ animationDelay: "1s" }}></div>
+        <div className="absolute top-40 right-10 w-32 h-32 bg-purple-500/15 rounded-full blur-xl animate-float" style={{ animationDelay: "1s" }}></div>
         <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-primary/15 rounded-full blur-xl animate-float" style={{ animationDelay: "2s" }}></div>
+        
+        {/* Tech Grid Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-10 left-20 w-2 h-2 bg-primary rounded-full"></div>
+          <div className="absolute top-32 right-24 w-1 h-1 bg-purple-500 rounded-full"></div>
+          <div className="absolute bottom-32 left-32 w-1.5 h-1.5 bg-primary rounded-full"></div>
+          <div className="absolute top-64 left-1/3 w-1 h-1 bg-purple-500 rounded-full"></div>
+          <div className="absolute bottom-40 right-1/4 w-2 h-2 bg-primary rounded-full"></div>
+        </div>
+        
+        {/* Geometric Shapes */}
+        <div className="absolute top-1/4 right-20 w-8 h-8 border border-primary/20 rotate-45 animate-pulse"></div>
+        <div className="absolute bottom-1/3 left-16 w-6 h-6 border border-purple-500/20 rotate-12 animate-pulse" style={{ animationDelay: "1.5s" }}></div>
       </div>
     </section>
   );
