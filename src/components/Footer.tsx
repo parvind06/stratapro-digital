@@ -80,7 +80,7 @@ const Footer = () => {
             {/* Company Info */}
             <div>
               <div className="text-2xl font-bold text-primary mb-4">
-                INSANGER technology PVT.LTD
+                Insanger Technology Pvt.Ltd
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Your trusted partner in digital transformation and technology excellence. 
@@ -95,11 +95,11 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center text-sm">
                   <Mail className="h-4 w-4 text-primary mr-3" />
-                  <span className="text-muted-foreground">info@techsolutions.com</span>
+                  <span className="text-muted-foreground">info@insanger.com</span>
                 </div>
                 <div className="flex items-center text-sm">
                   <MapPin className="h-4 w-4 text-primary mr-3" />
-                  <span className="text-muted-foreground">123 Tech Street, NY 10001</span>
+                  <span className="text-muted-foreground">NxOne Commercial, sector-1, Techzone-4</span>
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-sm text-muted-foreground">
-              © 2024 INSANGER technology PVT.LTD. All rights reserved.
+              © 2024 Insanger Technology Pvt.Ltd. All rights reserved.
             </div>
 
             {/* Legal Links */}
