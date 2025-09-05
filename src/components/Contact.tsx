@@ -22,7 +22,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@techsolutions.com", "support@techsolutions.com"],
+      details: ["info@Insanger Technology.com", "support@Insanger Technology.com"],
       subtitle: "We'll respond within 2 hours"
     },
     {
