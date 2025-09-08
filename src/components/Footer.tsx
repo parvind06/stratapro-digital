@@ -80,7 +80,7 @@ const Footer = () => {
             {/* Company Info */}
             <div>
               <div className="text-2xl font-bold text-primary mb-4">
-                Insanger Technology Pvt.Ltd
+                Insanger Technologies Pvt.Ltd
               </div>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Your trusted partner in digital transformation and technology excellence. 
@@ -187,7 +187,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-sm text-muted-foreground">
-              © 2024 Insanger Technology Pvt.Ltd. All rights reserved.
+              © 2024 Insanger Technologies Pvt.Ltd. All rights reserved.
             </div>
 
             {/* Legal Links */}

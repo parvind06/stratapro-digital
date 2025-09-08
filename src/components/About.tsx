@@ -33,7 +33,7 @@ const About = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            About Insanger Technology
+            About Insanger Technologies
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Your trusted partner in digital transformation and technology excellence since 2008.
@@ -67,7 +67,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Founded in 2008, Insanger Technology has been at the forefront of digital transformation, 
+                Founded in 2008, Insanger Technologies has been at the forefront of digital transformation, 
                 helping businesses leverage technology to achieve unprecedented growth and efficiency.
               </p>
               <p>
@@ -117,7 +117,7 @@ const About = () => {
         {/* Team Section Preview */}
         <div className="bg-card border border-border rounded-lg p-8 text-center">
           <h3 className="text-2xl font-semibold text-foreground mb-4">
-            Why Choose Insanger Technology?
+            Why Choose Insanger Technologies?
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div>
